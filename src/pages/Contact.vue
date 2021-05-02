@@ -126,7 +126,7 @@ export default {
   },
   methods: {
     send() {
-      axios.post('http://localhost:1337/contacts', this.formList).then(resp => {
+      axios.post('http://106.75.122.252:1337/contacts', this.formList).then(resp => {
         console.log(resp),
         alert('send success!')
       }).catch(err => {
